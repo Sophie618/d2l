@@ -1,3 +1,25 @@
 data/*.pth
 model_weights*
 model*
+# 数据集
+data/
+*/data/
+
+# 日志
+*.log
+download.log
+
+# 临时文件
+*.pyc
+__pycache__/
+.DS_Store
+
+# 模型权重 / 缓存
+*.bin
+*.pth
+*.pkl
+*.h5
+*.ckpt
+*.zip
+*.tar
+*.gz
